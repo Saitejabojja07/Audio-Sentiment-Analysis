@@ -20,9 +20,9 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-API_KEY = "ae1218dfff62d19fdd9315dfe79dc1e7a243d1f6"
+API_KEY = "DEEPGRAM API KEY"
 deepgram = DeepgramClient(API_KEY)
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "OPENAI API KEY"
 embedding = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
 llm_name = "gpt-3.5-turbo"
 llm = ChatOpenAI(model_name=llm_name, temperature=0, api_key=OPENAI_API_KEY)
