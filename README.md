@@ -9,12 +9,11 @@ Features
 
 Requirements
 
-    Python 3.x
+    Python 3.10.0
     Flask
-    Requests
     Deepgram API credentials
     OpenAI API credentials
-    Langchain API credentials
+    Langchain 
 
 Installation
 
